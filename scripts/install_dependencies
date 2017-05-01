@@ -1,4 +1,5 @@
 #!/bin/bash
 #apt-get install apache2 php7.0 php7.0-cli php7.0-curl php7.0-mcrypt php7.0-mysql php7.0  mysql-common php7.0-common php7.0-json php7.0-dev php7.0-cgi
-wget https://raw.githubusercontent.com/sanudatta11/serverconfig/master/prereq.sh
-sudo ./prereq.sh
+https://raw.githubusercontent.com/sanudatta11/serverconfig/master/prereq.sh
+chmod +x ./prereq.sh
+./prereq.sh
